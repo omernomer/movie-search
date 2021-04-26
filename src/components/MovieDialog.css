@@ -1,0 +1,13 @@
+.thumbnail-img {
+    float: right;
+    border: 3px solid rebeccapurple;
+}
+
+.dialog-box {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dialog-right {
+    margin-right: 15px;
+}

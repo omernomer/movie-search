@@ -1,0 +1,27 @@
+.movBtn {
+    border: 0px;
+    font-size: 12pt;
+    cursor: pointer;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.listItem {
+    list-style: none;
+    border-top: thin solid #ddd;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.listItem:hover {
+    background-color: aliceblue;
+}
+
+.listItem div {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
